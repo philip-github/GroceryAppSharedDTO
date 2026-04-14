@@ -1,5 +1,5 @@
 //
-//  GorceryCategoryDTO.swift
+//  GroceryCategoryRequestDTO.swift
 //  GroceryAppSharedDTO
 //
 //  Created by Philip Al-Twal on 14/04/2026.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct GroceryCategoryDTO: Codable {
+public struct GroceryCategoryRequestDTO: Codable {
     public let title: String
     public let colorCode: String
     
